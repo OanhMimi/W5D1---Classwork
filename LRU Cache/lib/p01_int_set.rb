@@ -2,7 +2,7 @@ class MaxIntSet
   attr_accessor :store
   def initialize(max)
     @store = Array.new(max,false)
-    @max = max
+    @max = 5000 
   end
 
   def insert(num)
